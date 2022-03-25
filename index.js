@@ -14,7 +14,7 @@ function roll() {
 
 
     if (randomNumber1 > randomNumber2) {
-        document.querySelector('h1').innerHTML = "Player 1 Wins! 🚩"
+        document.querySelector('h1').innerHTML = "🚩 Player 1 Wins!"
     } else if (randomNumber1 < randomNumber2) {
         document.querySelector('h1').innerHTML = "Player 2 Wins! 🚩"
     } else if (randomNumber1 == randomNumber2) {
